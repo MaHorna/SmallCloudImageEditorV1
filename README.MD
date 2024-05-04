@@ -8,6 +8,8 @@ Its very crude , lots of bugs, security issues(connection keys in code), poor pr
 
 Servers no longer work - 30 day free server. But it worked at the time and sparked interest in online, multiplayer experiences for me. You could basically use this image editor as image social network because it offered quick posting and viewing of other images.  Had a early 2000s vibe with the clunkiness of the system. 
 
+Im currently on linux , cant say whether app works.
+
 /*************/
 
 
