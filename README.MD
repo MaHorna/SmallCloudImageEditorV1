@@ -1,5 +1,7 @@
 /* 2024 intro */
+
 DONT REPRODUCE !
+
 One of my first non console projects, actually had to reverse engineer this version from build cause i didnt use any versioning system at the time and deleted last version...
 
 Its very crude , lots of bugs, security issues(connection keys in code), poor practices(no OOP), its a blasphemy to even post it here, please dont reproduce. Lot of things were rushed cause ive set myself a deadline of i think 3 days ?.
