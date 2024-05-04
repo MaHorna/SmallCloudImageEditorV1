@@ -1,24 +1,23 @@
 
+
+/* original 2018-ish text*/
 Small-Cloud-Image-Editor
 
 Small image editor where you can upload you images and see other people images too :)
 
-Ide o malý obrazový editor s funkciou nahrávania obrázkov na server(ftp) a informácie o obrázkoch do databáze (mysql).
+Small image editor with upload feature via ftp to sever and uploiad of image information to database (mysql)
 
-Import image - vyberie obrázok na editovanie
+Usage (buttons)
 
-Save image - uloží váš obrázok na dané miesto na disku
+Import image - selects image for editing
+Save image - saves image to selected folder
+Upload online - uploads your image to server via ftp connection Author and image name is required.
+Show other’s images - loads images stored on the server, sorted by newest and shows info about them stored in database. Changes UI and adds ability to see more images or return to editor. Loading can take quite a while because all images are being downloaded(slow ftp). By clicking on a loaded image you can save it to your selected filder (I recommend saving with .bmp/.jpg/... extension)
 
-Upload online - uloží váš obrázok na server cez ftp. Je potrebné zadať meno autora a názov obrázku.
-
-Show other’s images - načíta obrázky uložené na serveri od najnovšie pridaných a vypíše info o nich uložené v databáze. Zmení UI a pridá možnosť načítať viac obrázkov a vrátiť sa do editora . Načítavanie môže trvať docela dlho pretože sa sťahujú všetky obrázky. (pomalé ftp) Preto je dobré vaše upravené obrázky zmenšiť, rozmazať, posterizovať. Kliknutím na obrázok môžete obr. Stiahnuť do vami vybraného priečinka. (odporúčam pomenovať s koncovkou *.bmp/jpg...)
-
-Editor funkcie: (všeobecne je dobré používať najmenšie hodnoty 3-15) Scale- zmenší obrázok, “x” pixelov sa zmení na 1.
-
-Blur/compress - rozmaže a zmenší obrázok.
-
-Posterize -zníži počet farieb. 3 = 8 farieb, 4 = 27 farieb (X na 3tiu)
-
-Reduce islands - odstráni osamostatnené pixely a nahradí farbou s najväčším zastúpením okolo.
-
-Undo - vráti úpravu. (história má 10 úprav)
+Editor functions: (generaly its better to use smaller values 3-15) 
+Scale - scales image, "x" pixels changes to 1 pixel
+Blur/compress - blurs compresses image 
+Posterize - reduces color pallet.value 3 on slider = 8 colors, 4 = 27 colors ... 
+Reduce islands - removes single pixels, pixel color is replaced by color most present yround it
+Undo - reverts change. (There is 10 previous versions saved)
+/****************/
