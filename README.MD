@@ -1,6 +1,16 @@
+/* 2024 intro */
+DONT REPRODUCE !
+One of my first non console projects, actually had to reverse engineer this version from build cause i didnt use any versioning system at the time and deleted last version...
+
+Its very crude , lots of bugs, security issues(connection keys in code), poor practices(no OOP), its a blasphemy to even post it here, please dont reproduce. Lot of things were rushed cause ive set myself a deadline of i think 3 days ?.
+
+Servers no longer work - 30 day free server. But it worked at the time and sparked interest in online, multiplayer experiences for me. You could basically use this image editor as image social network because it offered quick posting and viewing of other images.  Had a early 2000s vibe with the clunkiness of the system. 
+
+/*************/
 
 
 /* original 2018-ish text*/
+
 Small-Cloud-Image-Editor
 
 Small image editor where you can upload you images and see other people images too :)
